@@ -1,4 +1,4 @@
-# JagerRAT
+# JägerRAT
 
 <h2>DISCLAIMER:</h2>
 
